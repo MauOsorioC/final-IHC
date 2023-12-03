@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    background-color: #FFA22A;
+    list-style: none;
+}
+
+
+
+.video{
+    padding: 3rem 0;
+}
+.subvideo{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.inpt{
+    background: transparent;
+    border: 0;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+}
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.pie p{
+    background-color: black;
+}
+
+.pie{
+    margin-top: 10px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    background-color: #4F3F84;
+    top: 0;
+    z-index: 1000;
+}
+
+.containerV{
+    width: 90%;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+.apoyo-vid{
+    padding: 1rem;
+    margin-left: 15rem;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem;
+}
+nav{
+    background-color: #4F3F84;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background-color: #4F3F84;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background-color: #4F3F84;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: black;
+    background-color: #4F3F84;
+    padding: 7px 13px;
+}
+
+#iniciosesion{
+    background-color: #FF662A;
+    border-radius: 10px;
+}
+
+.contB{
+    margin-top: 5rem;
+    width: 90%;
+    grid-gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+nav a:hover{
+    transition: 0.7s;
+    background: #FF662A;
+    border-radius: 10px;
+}
+
+.titulo-empresa{
+    display: flex;
+    justify-content: center;
+    color: #82AC26;
+}
+
+
+
+#tinicio{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.btnBanner{
+    background: #FF662A;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.ongs{
+    padding: 3rem 0;
+}
+.ongs-{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.titulo-ong{
+    color: #82AC26;
+}
+
+.lista-ong{
+    font-weight: bold;
+}
+
+.titulo{
+    color: #82AC26;
+}
